@@ -34,4 +34,4 @@ The Face Mask Classifier Prototype is a web application that classifies images a
 
 **Step 02:** Copy the 'source' / 'facemask-project' folder to the htdocs or public.
 
-**Note:**
+**Note:** Setting up this application is simple. It can be easily moved to a server and requires a server to function.
