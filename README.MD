@@ -59,3 +59,15 @@ It is recognizing objects in images, identifying sounds, or classifying data. Te
 ![IMAGE](docs/github-readme-content/3.jpg)
 
 **Note:** After that, other steps are self-explanatory: create classes according to the needs; those could be “with-mask” and “without-mask,” then add data to the relevant classes and click train to start the training process. Apart from this, advanced settings can be changed to improve performance and accuracy. The model can be uploaded online or downloaded locally; it also provides basic code to infer the model in Python, a Web App (TensorFlow | TensorFlowJS | TensorFlow Litte).
+
+## Demonstration
+
+## Social Links
+
+- [Linkedin Profile](https://www.linkedin.com/in/gunarakulangunaretnam)
+- [Facebook Profile](https://www.facebook.com/gunarakulangunaratnam)
+- [Instagram Profile](https://www.instagram.com/gunarakulangunaretnam)
+- [Twitter Profile ](https://twitter.com/gunarakulangr)
+- [Kaggle Profile](https://www.kaggle.com/gunarakulangr)
+- [TikTok Profile](https://www.tiktok.com/@gunarakulangunaretnam)
+- [Youtube Profile](https://www.youtube.com/channel/UCMWkED5sabgVZSCKjZuRJXA)

@@ -132,9 +132,9 @@
         let withoutMaskIndex = -1;
 
         for (let i = 0; i < maxPredictions; i++) {
-            if (prediction[i].className === "with mask") {
+            if (prediction[i].className === "with-mask") {
                 withMaskIndex = i;
-            } else if (prediction[i].className === "without mask") {
+            } else if (prediction[i].className === "without-mask") {
                 withoutMaskIndex = i;
             }
         }
