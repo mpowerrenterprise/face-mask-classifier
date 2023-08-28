@@ -62,6 +62,8 @@ It is recognizing objects in images, identifying sounds, or classifying data. Te
 
 ## Demonstration
 
+![IMAGE](docs/github-readme-content/demo.gif)
+
 ## Social Links
 
 - [Linkedin Profile](https://www.linkedin.com/in/gunarakulangunaretnam)
