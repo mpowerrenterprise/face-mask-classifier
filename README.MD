@@ -7,8 +7,9 @@
     ├── research              # Contains pre-research experiments.
     │   ├── pre-prototype       # Contains pre-prototype (basic project).
     │   ├── model.zip           # Contains trained model.
-    ├── research              # Contains GitHub Readme Content.
-    └── source                # Contains main source code.
+    ├── source                # Contains main source code.
+    └── README.MD             # Contains GitHub Readme Content.
+
 ```
 
 ## Introduction
