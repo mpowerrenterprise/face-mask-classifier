@@ -36,6 +36,10 @@ The Face Mask Classifier Prototype is a web application that classifies images a
 
 **Note:** Setting up this application is simple. It can be easily moved to a server and requires a server to function.
 
+## Demonstration
+
+![IMAGE](docs/github-readme-content/demo.gif)
+
 ## Guide for AI Model Training (Techable Machine)
 
 Teachable Machine is an innovative web-based platform developed by Google that empowers individuals, regardless of their coding experience, to delve into machine learning and artificial intelligence. This intuitive tool is a gateway for beginners and enthusiasts, allowing them to train their machine-learning models without extensive programming knowledge.
@@ -59,10 +63,6 @@ It is recognizing objects in images, identifying sounds, or classifying data. Te
 ![IMAGE](docs/github-readme-content/3.jpg)
 
 **Note:** After that, other steps are self-explanatory: create classes according to the needs; those could be “with-mask” and “without-mask,” then add data to the relevant classes and click train to start the training process. Apart from this, advanced settings can be changed to improve performance and accuracy. The model can be uploaded online or downloaded locally; it also provides basic code to infer the model in Python, a Web App (TensorFlow | TensorFlowJS | TensorFlow Litte).
-
-## Demonstration
-
-![IMAGE](docs/github-readme-content/demo.gif)
 
 ## Social Links
 
