@@ -95,8 +95,8 @@
 
     // Load the image model and setup the webcam
     async function init() {
-        const modelURL = "ai-brain/model.json";
-        const metadataURL = "ai-brain/metadata.json";
+        const modelURL = "model/model.json";
+        const metadataURL = "model/metadata.json";
 
         // load the model and metadata
         // Refer to tmImage.loadFromFiles() in the API to support files from a file picker
