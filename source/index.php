@@ -93,10 +93,12 @@
 
     let model, webcam, maxPredictions;
 
+    const URL = "https://teachablemachine.withgoogle.com/models/hUVXYmFbL/";
+
     // Load the image model and setup the webcam
     async function init() {
-        const modelURL = "model/model.json";
-        const metadataURL = "model/metadata.json";
+        const modelURL = URL + "model.json";
+        const metadataURL = URL + "metadata.json";
 
         // load the model and metadata
         // Refer to tmImage.loadFromFiles() in the API to support files from a file picker
