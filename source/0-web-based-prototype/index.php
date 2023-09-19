@@ -93,7 +93,7 @@
 
     let model, webcam, maxPredictions;
 
-    const URL = "https://teachablemachine.withgoogle.com/models/hUVXYmFbL/";
+    const URL = "model/";
 
     // Load the image model and setup the webcam
     async function init() {
@@ -170,7 +170,6 @@
                 document.getElementById("status-display").innerHTML = "Disallowed: " + withoutMaskProbability
                     .toFixed(2);
             }
-
 
         }
     }

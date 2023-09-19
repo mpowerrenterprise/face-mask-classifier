@@ -1,9 +1,8 @@
-from keras.models import load_model  # TensorFlow is required for Keras to work
 import cv2  # Install opencv-python
+import threading
 import numpy as np
-
-# Disable scientific notation for clarity
-np.set_printoptions(suppress=True)
+from playsound import playsound
+from keras.models import load_model  # TensorFlow is required for Keras to work
 
 # Load the model
 model = load_model("model/keras_Model.h5", compile=False)
@@ -13,6 +12,13 @@ class_names = open("model/labels.txt", "r").readlines()
 
 # CAMERA can be 0 or 1 based on default camera of your computer
 camera = cv2.VideoCapture(0)
+
+sound_thread = None 
+
+def playAlarm():
+    global sound_thread
+    playsound("media/warning-sound.mp3")
+    sound_thread = None
 
 while True:
     # Grab the webcamera's image.
@@ -41,10 +47,14 @@ while True:
 
     if class_name == "without-mask":
         cv2.putText(image_copy, f"Disallowed: {detection_source}",(15, 40), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+        
+        if sound_thread is None:
+            sound_thread = threading.Thread(target=lambda: playAlarm())
+            sound_thread.start()
 
     elif class_name == "with-mask":
         cv2.putText(image_copy, f"Allowed: {detection_source}",(15, 40), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
-
+        
     # Show the image in a window
     cv2.imshow("Webcam Image", image_copy)
 
