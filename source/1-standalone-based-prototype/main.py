@@ -18,11 +18,10 @@ while True:
     # Grab the webcamera's image.
     ret, image = camera.read()
 
+    image_copy = image.copy()
+
     # Resize the raw image into (224-height,224-width) pixels
     image = cv2.resize(image, (224, 224), interpolation=cv2.INTER_AREA)
-
-    # Show the image in a window
-    cv2.imshow("Webcam Image", image)
 
     # Make the image a numpy array and reshape it to the models input shape.
     image = np.asarray(image, dtype=np.float32).reshape(1, 224, 224, 3)
@@ -36,9 +35,18 @@ while True:
     class_name = class_names[index]
     confidence_score = prediction[0][index]
 
-    # Print prediction and confidence score
-    print("Class:", class_name[2:], end="")
-    print("Confidence Score:", str(np.round(confidence_score * 100))[:-2], "%")
+    class_name = class_name[2:].strip()
+
+    detection_source = np.round(confidence_score * 100)
+
+    if class_name == "without-mask":
+        cv2.putText(image_copy, f"Disallowed: {detection_source}",(15, 40), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+
+    elif class_name == "with-mask":
+        cv2.putText(image_copy, f"Allowed: {detection_source}",(15, 40), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+
+    # Show the image in a window
+    cv2.imshow("Webcam Image", image_copy)
 
     # Listen to the keyboard for presses.
     keyboard_input = cv2.waitKey(1)
