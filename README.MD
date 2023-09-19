@@ -3,12 +3,14 @@
 ## Repo Structure
 
 ```
-    ├── docs                  # Contains project-related documents.
-    ├── research              # Contains pre-research experiments.
-    │   ├── pre-prototype       # Contains pre-prototype (basic project).
-    │   ├── model.zip           # Contains trained model.
-    ├── source                # Contains main source code.
-    └── README.MD             # Contains GitHub Readme Content.
+    ├── docs                                # Contains project-related documents.
+    ├── research                            # Contains pre-research experiments.
+    │   ├── models                            # Contains trained models. 
+    │   ├── pre-prototype                     # Contains pre-prototype (basic project).
+    ├── source                              # Contains main source code.
+    │   ├── 0-web-based-prototype             # Contains source code of the web-based app.
+    │   ├── 1-standalone-based-prototype      # Contains source code of the standalone-based app.
+    └── README.MD                           # Contains GitHub Readme Content.
 
 ```
 
