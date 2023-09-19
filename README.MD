@@ -30,6 +30,8 @@ The Face Mask Classifier Prototype is a web application that classifies images a
 
 ## Setup
 
+### Web-based Prototype
+
 **Step 01:** Install a web server
 
 - [XAMPP](https://www.apachefriends.org/download.html) Server is recommended.
@@ -42,7 +44,11 @@ The Face Mask Classifier Prototype is a web application that classifies images a
 
 ![IMAGE](docs/github-readme-content/demo.gif)
 
-## Guide for AI Model Training (Techable Machine)
+
+### Standalone-based Prototype
+
+
+## Guide for AI Model Training (Teachable Machine)
 
 Teachable Machine is an innovative web-based platform developed by Google that empowers individuals, regardless of their coding experience, to delve into machine learning and artificial intelligence. This intuitive tool is a gateway for beginners and enthusiasts, allowing them to train their machine-learning models without extensive programming knowledge.
 
