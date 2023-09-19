@@ -40,14 +40,14 @@ The Face Mask Classifier Prototype is a web application that classifies images a
 
 **Note:** Setting up this application is simple. It can be easily moved to a server and requires a server to function.
 
-## Demonstration
+### Demonstration
 
-![IMAGE](docs/github-readme-content/demo.gif)
+![IMAGE](docs/github-readme-content/demo-1.gif)
 
 
 ### Standalone-based Prototype
 
-Step 01: Install Python Dependencies
+**Step 01:** Install Python Dependencies
 
 ```
 pip install tensorflow
@@ -64,6 +64,15 @@ pip install opencv-python
 ```
 pip install playsound
 ```
+
+**Step 02:** Run the main.py which in the "source\1-standalone-based-prototype" folder
+```
+python main.py
+```
+
+### Demonstration
+
+![IMAGE](docs/github-readme-content/demo-2.gif)
 
 ## Guide for AI Model Training (Teachable Machine)
 
