@@ -32,7 +32,7 @@ The Face Mask Classifier Prototype is a web application that classifies images a
 
 - [XAMPP](https://www.apachefriends.org/download.html) Server is recommended.
 
-**Step 02:** Copy the 'source' / 'facemask-project' folder to the htdocs or public.
+**Step 02:** Copy the 'source/0-web-based-prototype' folder to the htdocs or public.
 
 **Note:** Setting up this application is simple. It can be easily moved to a server and requires a server to function.
 
