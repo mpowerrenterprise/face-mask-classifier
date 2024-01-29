@@ -30,7 +30,7 @@ The Face Mask Classifier Prototype is a web application that classifies images a
 
 ## Setup
 
-### Web-based Prototype
+### Web App Prototype
 
 **Step 01:** Install a web server
 
@@ -45,7 +45,7 @@ The Face Mask Classifier Prototype is a web application that classifies images a
 ![IMAGE](docs/github-readme-content/demo-1.gif)
 
 
-### Standalone-based Prototype
+### Desktop App Prototype
 
 **Step 01:** Install Python Dependencies
 
