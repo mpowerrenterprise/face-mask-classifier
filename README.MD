@@ -1,4 +1,4 @@
-# FACE MASK CLASSIFIER
+# Face Mask Classifier
 
 ## Repo Structure
 
@@ -98,7 +98,7 @@ Teachable Machine is a Low-Code-AI tool that helps to train simple AI models to 
 
 **Note:** After that, other steps are self-explanatory: create classes according to the needs; those could be “with-mask” and “without-mask,” then add data to the relevant classes and click train to start the training process. Apart from this, advanced settings can be changed to improve performance and accuracy. The model can be uploaded online or downloaded locally; it also provides basic code to infer the model in Python, a Web App (TensorFlow | TensorFlowJS | TensorFlow Litte).
 
-# CONTACT
+# Contact
 
 ### Website: 
 
